@@ -40,7 +40,7 @@ def load_modelvision() -> genai.GenerativeModel:
 
 #------------------------------------------------------------
 # CONFIGURATION
-api_key = st.secrets["GOOGLE_API_KEY"]["api_key"]
+api_key = st.secrets["api_key"]
 genai.configure(api_key=api_key)
 
 model = load_model()
