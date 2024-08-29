@@ -1,6 +1,6 @@
 [theme]
-base="light"
-primaryColor="#A3A9A9"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#fff4e4"
-font="monospace"
+base = "light"  # 'light' or 'dark' theme base
+primaryColor = "#A3A9A9"  # Main color of the app
+backgroundColor = "#FFFFFF"  # Background color of the app
+secondaryBackgroundColor = "#fff4e4"  # Secondary background color, for areas like sidebar
+font = "monospace"  # Font type for text, options include 'sans-serif', 'serif', 'monospace'
