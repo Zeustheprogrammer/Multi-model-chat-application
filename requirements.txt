@@ -1,0 +1,8 @@
+streamlit
+pandas
+google.generativeai
+pillow
+requests
+SpeechRecognition
+numpy
+PyAudio
