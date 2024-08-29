@@ -5,6 +5,7 @@ import re
 from PIL import Image
 import requests
 import speech_recognition as sr
+import os
 
 # Page configuration
 st.set_page_config(
@@ -40,7 +41,7 @@ def load_modelvision() -> genai.GenerativeModel:
 
 #------------------------------------------------------------
 # CONFIGURATION
-api_key = st.secrets["api_key"]
+api_key = os.getenv('GENAI_API_KEY')
 genai.configure(api_key=api_key)
 
 model = load_model()
